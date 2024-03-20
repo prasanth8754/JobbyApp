@@ -1,0 +1,53 @@
+.not-found-bg-cont {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.not-found-img {
+  width: 90%;
+}
+
+.not-found-h1 {
+  color: #f8fafc;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.not-found-p {
+  color: #cbd5e1;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-cont {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .not-found-cont {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .not-found-cont {
+    width: 30%;
+  }
+}

@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-web-logo {
+  width: 60px;
+}
+
+.nav-icons-cont-sm {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-icon {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.logout-btn {
+  border: 0px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-link-cont-md {
+  display: none;
+}
+
+.nav-icons-cont-md {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-links {
+  color: #f8fafc;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.logout-btn-md {
+  display: none;
+  background-color: #6366f1;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  color: #f8fafc;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.route-link {
+  text-decoration: none;
+  color: #f8fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-icons-cont-sm {
+    display: none;
+  }
+  .nav-link-cont-md {
+    display: block;
+  }
+  .logout-btn-md {
+    display: block;
+  }
+  .navbar-web-logo {
+    width: 110px;
+  }
+  .navbar {
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

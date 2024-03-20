@@ -1,0 +1,119 @@
+.route-link {
+  text-decoration: none;
+}
+
+.similar-job-card {
+  background-color: #272727;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.company-logo-cont {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+}
+
+.comp-title-cont {
+  padding-left: 20px;
+}
+
+.comp-title {
+  color: #f1f5f9;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.rating {
+  padding-bottom: 0px;
+  padding-left: 6px;
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+}
+
+.rating-icon {
+  color: #fbbf24;
+  font-size: 18px;
+}
+
+.job-package-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.location-cont-outside {
+  display: flex;
+  align-items: center;
+}
+
+.location-cont {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  color: #f1f5f9;
+  font-size: 20px;
+}
+
+.location-p {
+  color: #f1f5f9;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin: 0;
+}
+
+.salary-p {
+  color: #f1f5f9;
+  font-size: 18px;
+  margin: 0;
+}
+
+.comp-desc-h1 {
+  color: #f1f5f9;
+  font-size: 20px;
+}
+
+.comp-desc-p {
+  color: #f1f5f9;
+  font-size: 16px;
+}
+
+.hr-line {
+  margin-top: 15px;
+  margin-bottom: 17px;
+}
+
+.comp-desc-cont1 {
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-card {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .similar-job-card {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .similar-job-card {
+    width: 25%;
+  }
+}

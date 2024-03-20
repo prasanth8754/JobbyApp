@@ -1,0 +1,16 @@
+.checkbox-input-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-input {
+  cursor: pointer;
+}
+
+.checkbox-label {
+  color: #f8fafc;
+  font-size: 15px;
+  padding-left: 10px;
+  cursor: pointer;
+}
